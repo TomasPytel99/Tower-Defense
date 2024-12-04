@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MainMenu">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="555" height="581"/>
+    </constraints>
+    <properties/>
+    <border type="none">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="e80d4" class="javax.swing.JButton" binding="startGameButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="218" height="100"/>
+            <preferred-size width="218" height="100"/>
+            <maximum-size width="218" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial" size="28" style="1"/>
+          <margin top="0" left="27" bottom="0" right="0"/>
+          <opaque value="true"/>
+          <rolloverEnabled value="true"/>
+          <selected value="true"/>
+          <text value="Start Game"/>
+        </properties>
+      </component>
+      <vspacer id="fcd33">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="320"/>
+            <preferred-size width="-1" height="320"/>
+            <maximum-size width="-1" height="320"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="1cbd5">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="125"/>
+            <preferred-size width="-1" height="125"/>
+            <maximum-size width="-1" height="125"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
